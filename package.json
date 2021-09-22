@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-09-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09-gallery/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffarenn/goit-js-hw-09-gallery.git"
+  },
+  "keywords": [],
+  "author": "Andrejs Klimza <andrejsklimza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://ffarenn.github.io/goit-js-hw-09-gallery/issues"
+  },
+  "homepage": "https://ffarenn.github.io/goit-js-hw-09-gallery",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
